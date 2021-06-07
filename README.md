@@ -20,7 +20,8 @@ There are several good selenium automation frameworks out there. Why then make a
 - Chrome web driver installed <a href="https://chromedriver.chromium.org/downloads" target="_blank">`ChromeDriver - WebDriver for Chrome`</a>
 - test if you can start the web browser
 - test if you can start chromedriver from commandline
-- best  to install the package under <a href="https://docs.python.org/3.6/library/venv.html" target="_blank">`python virtual environment`</a> 
+- best  to install the package under <a href="https://docs.python.org/3.6/library/venv.html" target="_blank">`python virtual environment`</a>
+- install <a href="https://graphviz.org" target="_blank">`Graphviz for your environment`</a>
 
 [Install details](install.md)
 
@@ -33,4 +34,4 @@ pip install nemonet
 - open a command prompt
 - clone following repo : git clone https://github.com/janrum/visiontestfiles.git
 - cd into visiontestfiles
-- python selenium_search.py
+- vision selenium-dev
