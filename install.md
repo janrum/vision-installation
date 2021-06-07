@@ -26,11 +26,12 @@ Vision is tested with python 3.6.8, therfore use it.
 
 ### install python virtual environment windows (tested on windows 10)
 - REMARK: replace python with python3 if needed.
-- check if 'python --version' shows the correct python version 3.6.8
+- check if 'python --version' shows the correct python version 3.6.8 or later
 - python -m venv vision
 - cd vision
 - Scripts\activate
 - pip3 install nemonet
+- don't forget to (install <a href="https://graphviz.org" target="_blank">`graphviz`</a>) 
 
 ### install python virtual environment Linux (tested on Ubuntu 20.04 LTS)
 - REMARK: replace python with python3 if needed.
@@ -44,15 +45,16 @@ Vision is tested with python 3.6.8, therfore use it.
 - sudo apt install graphviz
 - sudo apt-get install scrot
 
+### install Chrome and chromedriver
+set the location of the chromedriver in the path
+
 ### clone the visiontestfiles
 - <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">`Getting Started - Installing Git`</a>
 - git clone https://github.com/janrum/visiontestfiles.git
 
-### install Chrome and chromedriver
-set the location of the chromedriver in the path : export PATH=$PATH:.../vision/visiontestfiles
 
 ### execute the sample
-in terminal of command box type en enter : python selenium_search.py. This should open your chrome browser and get the website and search for 'vision'.
+in terminal of command box type en enter : vision selenium-dev .This should open your chrome browser and get the website and search for 'vision'.
 
 
 
