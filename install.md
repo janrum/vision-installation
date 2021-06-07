@@ -31,7 +31,7 @@ Vision is tested with python 3.6.8, therfore use it.
 - cd vision
 - Scripts\activate
 - pip3 install nemonet
-- don't forget to (install <a href="https://graphviz.org" target="_blank">`graphviz`</a>) 
+- don't forget to install (<a href="https://graphviz.org" target="_blank">`graphviz`</a>) 
 
 ### install python virtual environment Linux (tested on Ubuntu 20.04 LTS)
 - REMARK: replace python with python3 if needed.
